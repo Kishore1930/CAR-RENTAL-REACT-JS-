@@ -1,0 +1,61 @@
+.home-page {
+    background-image: url('/public/images/car1.jpg');    
+    /* Replace 'car-background.jpg' with your actual image file */
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1{
+    color: white;
+  }
+
+  label{
+    color: white;
+  }
+  
+  .content {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .dropdowns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dropdown-container {
+    margin: 10px;
+  }
+  
+  .dropdown {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .get-car-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .get-car-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
